@@ -376,8 +376,10 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Assets/Player/Movement.cs"
-"Assets/Scripts/CmeraFollow.cs"
+"Assets/Scripts/bullet/bullet.cs"
+"Assets/Scripts/Cmera/CmeraFollow.cs"
+"Assets/Scripts/Player/Gun.cs"
+"Assets/Scripts/Player/Movement.cs"
 -langversion:9.0
 
 /deterministic

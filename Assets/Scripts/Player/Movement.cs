@@ -24,7 +24,5 @@ public class Movement : MonoBehaviour
 
         rb.velocity = new Vector2(moveX * moveSpeed, rb.velocity.y);
         rb.velocity = new Vector2(rb.velocity.x, moveY * moveSpeed);
-        //rb.velocity = new Vector2(Mathf.Sign(rb.velocity.x) * targetSpeed, rb.velocity.y);
-        //rb.velocity = new Vector2(rb.velocity.x, Mathf.Sign(rb.velocity.y) * targetSpeed);
     }
 }

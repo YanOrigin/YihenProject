@@ -134,10 +134,11 @@ GameObject:
   - component: {fileID: 396734548}
   - component: {fileID: 396734547}
   - component: {fileID: 396734546}
-  - component: {fileID: 396734545}
   - component: {fileID: 396734549}
+  - component: {fileID: 396734545}
+  - component: {fileID: 396734550}
   m_Layer: 0
-  m_Name: Square
+  m_Name: player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -271,6 +272,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &396734550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396734544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15913d41f0c61ab4092e33bafcacfe44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 4200950953668598690, guid: 6608b9bbc5f40524aaf050f8f2fc9939, type: 3}
+  fireInterval: 0.5
+  nextFire: 0.5
+  muzzleTransform: {fileID: 396734548}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

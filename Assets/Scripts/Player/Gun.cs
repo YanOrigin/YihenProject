@@ -5,8 +5,8 @@ using UnityEngine;
 public class Gun : MonoBehaviour
 {
     public GameObject bulletPrefab;
-    public float fireInterval = 0.5f;
-    public float nextFire = 0.0f;
+    public float fireInterval;
+    private float nextFire;
     public Transform muzzleTransform;
 
 

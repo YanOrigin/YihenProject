@@ -268,7 +268,7 @@ MonoBehaviour:
   m_playerTransform: {fileID: 0}
   targetPosX: {x: 0, y: 0, z: 0}
   targetPosY: {x: 0, y: 0, z: 0}
-  smooth: 1.1
+  smooth: 2
 --- !u!4 &844749081 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2081389412733459017, guid: 8a7fe997326a36145876614e95c5c37b, type: 3}
